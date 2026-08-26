@@ -5,19 +5,16 @@
 }
 
 .cabecalho {
-    width: 1440px; /* Dica: use max-width: 100% no futuro para telas menores */
+    width: 1440px;
     height: 80px;
     background: #0B0F19;
     
-    /* Ativa o Flexbox para alinhar os filhos lado a lado */
     display: flex; 
-    flex-direction: row;    /* Garante o alinhamento horizontal */
-    align-items: center;    /* Centraliza todas as palavras verticalmente */
-    justify-content: center; /* Centraliza as palavras no meio do cabeçalho */
-    gap: 30px;              /* Cria um espaçamento uniforme de 30px entre cada palavra */
-}
+    flex-direction: row;    
+    align-items: center;    
+    justify-content: center; 
+    gap: 30px;              
 
-/* Removido o 'position: absolute' de todos os cabeçalhos abaixo */
 
 header h1 {
     color: #FBFFFF;
@@ -47,18 +44,7 @@ header h3 {
 }
 
 header h4 {
-    /* Atenção: a cor antiga #0B0F19 sumia no fundo escuro do cabeçalho */
     color: #F8FAFC; 
-    font-family: "New Rocker", display;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-header h5 {
-    /* Atenção: a cor antiga #0B0F19 sumia no fundo escuro do cabeçalho */
-    color: #F8FAFC;
     font-family: "New Rocker", display;
     font-size: 16px;
     font-style: normal;
@@ -66,6 +52,15 @@ header h5 {
     line-height: normal;
 }
 
+header h5 {
+    color: #F8FAFC;
+    font-family: "New Rocker", display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+}
 
 body {
     font-family: Verdana, Roboto;
