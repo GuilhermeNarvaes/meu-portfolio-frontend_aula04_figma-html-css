@@ -5,67 +5,67 @@
 }
 
 .cabecalho {
-    width: 1440px;
+    width: 1440px; /* Dica: use max-width: 100% no futuro para telas menores */
     height: 80px;
     background: #0B0F19;
     
+    /* Ativa o Flexbox para alinhar os filhos lado a lado */
+    display: flex; 
+    flex-direction: row;    /* Garante o alinhamento horizontal */
+    align-items: center;    /* Centraliza todas as palavras verticalmente */
+    justify-content: center; /* Centraliza as palavras no meio do cabeçalho */
+    gap: 30px;              /* Cria um espaçamento uniforme de 30px entre cada palavra */
 }
 
-header h1{
+/* Removido o 'position: absolute' de todos os cabeçalhos abaixo */
+
+header h1 {
     color: #FBFFFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    position: absolute;
-    top: 10px;
-    left: 10px;
 }
 
-header h2{
+header h2 {
     color: #F8FAFC;
-    text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    position: absolute;
-    top: 10px;
-    left: 30px;
 }
 
-header h3{
+header h3 {
     color: #F8FAFC;
-    text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    position: absolute;
-    top: 10px;
-    left: 60px;
 }
 
-header h4{
-    color: #0B0F19;
-    font-family: "New Rocker";
+header h4 {
+    /* Atenção: a cor antiga #0B0F19 sumia no fundo escuro do cabeçalho */
+    color: #F8FAFC; 
+    font-family: "New Rocker", display;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-header h5{
-    color: #0B0F19;
-    font-family: "New Rocker";
+header h5 {
+    /* Atenção: a cor antiga #0B0F19 sumia no fundo escuro do cabeçalho */
+    color: #F8FAFC;
+    font-family: "New Rocker", display;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
+
 
 body {
     font-family: Verdana, Roboto;
