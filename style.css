@@ -1,44 +1,46 @@
-* {
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box; 
+body {
+    margin: 0;
+    background-color: #0b0e14;
+    color: #ffffff;
+    font-family: sans-serif;
 }
 
 .cabecalho {
-    width: 1440px;
-    height: 80px;
-    background: #0B0F19;
-    display: flex; 
-    flex-direction: row;    
-    align-items: center;    
-    justify-content: center; 
-    gap: 30px;              
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #080b11;
 }
 
-.marca h1, h2, h3, h4, h5 {
+.marca {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
 
-    display: flex; 
-    flex-direction: row; 
-    color: #FBFFFF;
-    font-family: 'Inter', sans-serif;
+.marca h1 {
+    color: #00f2fe;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    margin: 0;
+    margin-right: auto;
+    text-shadow: 0 0 10px #00f2fe;
 }
 
-
-body {
-    font-family: Verdana, Roboto;
-    text-align: center;
-    background-color: #e6e6df;
-    color: rgb(255, 254, 254); 
-    line-height: 1.5;
-    margin-top: 5px;
-    
+.marca h2, .marca h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
 }
 
-.img-F250{
-    width: 450px;
-    height: 450px;
+.btn {
+    background-color: #e2e8f0;
+    color: #000000;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
 }
