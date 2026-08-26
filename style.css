@@ -14,7 +14,9 @@
     align-items: center;    
     justify-content: center; 
     gap: 30px;              
+}
 
+.marca {
 
 header h1 {
     display: flex; 
