@@ -17,6 +17,8 @@
 
 
 header h1 {
+    display: flex; 
+    flex-direction: row; 
     color: #FBFFFF;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
@@ -26,6 +28,8 @@ header h1 {
 }
 
 header h2 {
+    display: flex; 
+    flex-direction: row; 
     color: #F8FAFC;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -35,6 +39,8 @@ header h2 {
 }
 
 header h3 {
+    display: flex; 
+    flex-direction: row; 
     color: #F8FAFC;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -44,6 +50,8 @@ header h3 {
 }
 
 header h4 {
+    display: flex; 
+    flex-direction: row; 
     color: #F8FAFC; 
     font-family: "New Rocker", display;
     font-size: 16px;
@@ -53,6 +61,8 @@ header h4 {
 }
 
 header h5 {
+    display: flex; 
+    flex-direction: row; 
     color: #F8FAFC;
     font-family: "New Rocker", display;
     font-size: 16px;
