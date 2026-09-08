@@ -1,7 +1,7 @@
 body {
-    margin: 0;
-    background-color: #0b0e14;
-    color: #ffffff;
+    margin: 10;
+    background-color: #cbcdd1;
+    color: #000000;
     font-family: sans-serif;
 }
 
@@ -34,8 +34,9 @@ body {
     margin: 0;
 }
 
-.btn {
-    background-color: #e2e8f0;
+.paragrafo1 {
+    display: flexbox;
+    background-color: #ffffff;
     color: #000000;
     padding: 8px 16px;
     border-radius: 8px;
