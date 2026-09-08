@@ -23,8 +23,12 @@ body {
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
+  
+  color: #00f2fe;
+  font-size: 24px;
+  margin: 0;
+  margin-right: auto;
+  text-shadow: 0 0 10px #00f2fe;
 }
 
 .nav-links {
@@ -177,12 +181,3 @@ body {
     justify-content: center;
   }
 }
-
-.marca h1 {
-    color: #00f2fe;
-    font-size: 24px;
-    margin: 0;
-    margin-right: auto;
-    text-shadow: 0 0 10px #00f2fe;
-}
-
