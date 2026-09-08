@@ -32,6 +32,7 @@ body {
     font-size: 14px;
     font-weight: bold;
     margin: 0;
+    color: white;
 }
 
 .paragrafo1 {
@@ -46,8 +47,7 @@ body {
     font-size: 12px;
     text-transform: uppercase;
 }
-.foto_tenis {
+.paragrafo1 foto_tenis {
     width: 450px;
     height: 450px;
-    position: relative;
 }
