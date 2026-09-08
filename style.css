@@ -1,23 +1,181 @@
+/* Reset básico e tipografia */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
 body {
-    margin: 10;
-    background-color: #cbcdd1;
-    color: #000000;
-    font-family: sans-serif;
+  background-color: #f8f9fa;
+  color: #1a1a1a;
+  line-height: 1.6;
 }
 
-.cabecalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 40px;
-    background-color: #080b11;
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0b1d28;
+  padding: 15px 5%;
+  color: #ffffff;
 }
 
-.marca {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    width: 100%;
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.tag-lancamento {
+  border: 1px solid #ffffff;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.btn-comprar {
+  background-color: #ffffff;
+  color: #0b1d28 !important;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+/* Seção Hero (Layout lado a lado) */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 8%;
+  gap: 40px;
+  background-color: #ffffff;
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 550px;
+}
+
+.hero-content h1 {
+  font-size: 2.2rem;
+  font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.description, .feature {
+  margin-bottom: 20px;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.price {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.btn-cta {
+  display: inline-block;
+  background-color: #0b1d28;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  background-color: #d9e2ec;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Seção de Benefícios */
+.features-section {
+  padding: 60px 8%;
+  text-align: center;
+}
+
+.features-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: left;
+  font-size: 0.85rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card h3 {
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+/* Rodapé */
+.footer {
+  background-color: #d1d8e0;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Responsividade para Celulares */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .marca h1 {
@@ -28,26 +186,3 @@ body {
     text-shadow: 0 0 10px #00f2fe;
 }
 
-.marca h2, .marca h3 {
-    font-size: 14px;
-    font-weight: bold;
-    margin: 0;
-    color: white;
-}
-
-.paragrafo1 {
-    display: flexbox;
-    background-color: #cbcdd1;
-    margin-left: 40px;
-    color: #000000;
-    padding: 8px 16px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 12px;
-    text-transform: uppercase;
-}
-.paragrafo1 img {
-    width: 450px;
-    height: 450px;
-}
