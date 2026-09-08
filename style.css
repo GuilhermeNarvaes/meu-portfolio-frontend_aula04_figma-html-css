@@ -36,7 +36,7 @@ body {
 
 .paragrafo1 {
     display: flexbox;
-    background-color: #ffffff;
+    background-color: #cbcdd1;
     margin-left: 40px;
     color: #000000;
     padding: 8px 16px;
@@ -47,5 +47,7 @@ body {
     text-transform: uppercase;
 }
 .foto_tenis {
-    display: ;
+    width: 450px;
+    height: 450px;
+    position: relative;
 }
