@@ -61,7 +61,7 @@ body {
 }
 
 /* Seção Hero (Layout lado a lado) */
-.hero-section {
+.paragrafo_completo {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -70,38 +70,38 @@ body {
   background-color: #ffffff;
 }
 
-.hero-content {
+.paragrafo {
   flex: 1;
   max-width: 550px;
 }
 
-.hero-content h1 {
+.paragrafo h1 {
   font-size: 2.2rem;
   font-weight: 900;
   line-height: 1.2;
   margin-bottom: 20px;
 }
 
-.subtitle {
+.titulo_paragrafo {
   font-size: 0.85rem;
   color: #666;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
 
-.description, .feature {
+.descricao, .descricao2 {
   margin-bottom: 20px;
   color: #444;
   font-size: 14px;
 }
 
-.price {
+.preco {
   font-size: 1.6rem;
   font-weight: bold;
   margin-bottom: 25px;
 }
 
-.btn-cta {
+.botao {
   display: inline-block;
   background-color: #0b1d28;
   color: #ffffff;
@@ -112,7 +112,7 @@ body {
   font-size: 16px;
 }
 
-.hero-image {
+.imagem {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -121,24 +121,24 @@ body {
   padding: 20px;
 }
 
-.hero-image img {
+.imagem img {
   max-width: 100%;
   height: auto;
   object-fit: contain;
 }
 
-/* Seção de Benefícios */
-.features-section {
+
+.beneficios {
   padding: 60px 8%;
   text-align: center;
 }
 
-.features-section h2 {
+.beneficios h2 {
   font-size: 28px;
   margin-bottom: 40px;
 }
 
-.cards-grid {
+.cards_beneficios {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
@@ -160,8 +160,8 @@ body {
   text-transform: uppercase;
 }
 
-/* Rodapé */
-.footer {
+
+.rodape {
   background-color: #CCCCFF;
   text-align: center;
   padding: 20px;
