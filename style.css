@@ -27,12 +27,13 @@ body {
   color: #00f2fe;
   font-size: 24px;
   margin-left: 20;
-  margin-right: auto;
+  font-weight: bold;
   text-shadow: 0 0 10px #00f2fe;
 }
 
 .nav-links {
   display: flex;
+  font-weight: bold;
   align-items: center;
   gap: 20px;
 }
@@ -44,8 +45,10 @@ body {
 }
 
 .tag-lancamento {
-  border: 1px solid #ffffff;
-  padding: 5px 10px;
+  background-color: #ffffff;
+  color: #0b1d28 !important;
+  font-weight: bold;
+  padding: 8px 16px;
   border-radius: 4px;
 }
 
