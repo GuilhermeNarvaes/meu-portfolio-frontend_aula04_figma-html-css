@@ -26,11 +26,7 @@ body {
   
   color: #00f2fe;
   font-size: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 50px 8%;
-  gap: 40px;
+  margin-left: 100;
   font-weight: bold;
   text-shadow: 0 0 10px #00f2fe;
 }
