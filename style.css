@@ -16,7 +16,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #0b1d28;
-  padding-left: 15px;
+  padding: 15px 5%;
   color: #ffffff;
 }
 
@@ -24,7 +24,7 @@ body {
   
   color: #00f2fe;
   font-size: 24px;
-  padding: 50px;
+  padding-left: 15px;
   font-weight: bold;
   text-shadow: 0 0 10px #00f2fe;
 }
@@ -58,7 +58,6 @@ body {
   border-radius: 4px;
 }
 
-/* Seção Hero (Layout lado a lado) */
 .paragrafo_completo {
   display: flex;
   align-items: center;
